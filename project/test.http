@@ -1,0 +1,3 @@
+POST http://localhost:8000/xai/integrated_gradients
+
+{ "data": { "BELNR": "131910", "WAERS": "O43", "BUKRS": "R07", "KTOSL": "N80", "PRCTR": "J39", "BSCHL": "T90", "HKONT": "V92", "DMBTR": "92445518.2981", "WRBTR": "59585041.1988" } }

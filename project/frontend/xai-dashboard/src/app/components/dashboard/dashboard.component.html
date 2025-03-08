@@ -1,0 +1,36 @@
+<!-- src/app/dashboard/dashboard.component.html -->
+
+<div class="dashboard">
+  <h1>XAI Dashboard</h1>
+
+  <div class="controls">
+    <button (click)="getIntegratedGradients()">Get Integrated Gradients</button>
+    <button (click)="getLimeExplanation()">Get LIME Explanation</button>
+    <button (click)="getShapExplanation()">Get SHAP Explanation</button>
+    <button (click)="getDecisionTreeExplanation()">Get Decision Tree Explanation</button>
+  </div>
+  <!--
+  <div *ngIf="integratedGradientsResult">
+    <h2>Integrated Gradients</h2>
+    <pre>{{ integratedGradientsResult | json }}</pre>
+  </div>
+
+  <div *ngIf="limeExplanation">
+    <h2>LIME Explanation</h2>
+    <ul>
+      <li *ngFor="let item of limeExplanation">
+        {{item[0]}}: {{item[1]}}
+      </li>
+    </ul>
+  </div>
+
+  <div *ngIf="shapPlot">
+    <h2>SHAP Explanation</h2>
+    <img [src]="shapPlot" alt="SHAP plot" />
+  </div>
+
+  <div *ngIf="decisionTreeExplanation">
+    <h2>Decision Tree Explanation</h2>
+    <pre>{{ decisionTreeExplanation }}</pre>
+  </div>-->
+</div>

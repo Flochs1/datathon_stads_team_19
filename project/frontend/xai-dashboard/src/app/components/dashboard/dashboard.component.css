@@ -1,0 +1,9 @@
+/* src/app/dashboard/dashboard.component.css */
+
+.dashboard {
+  padding: 20px;
+}
+.controls button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
